@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/ysf_white"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivCommentBar"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x98"
+        android:src="@drawable/base_comment_icon" />
+
+    <LinearLayout
+        android:layout_above="@id/ivCommentBar"
+        android:id="@+id/contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="zt_white">#FFFFFFFF</color>
+    <color name="zt_333">#333333</color>
+    <color name="zt_background">#f0f0f0</color>
+    <color name="zt_transparent">#00000000</color>
+
+    <!--用于重要文字-->
+    <color name="zt_color_text_major">#222222</color>
+    <!--用于次要文字-->
+    <color name="zt_color_text_normal">#666666</color>
+    <!--用于较弱文字-->
+    <!--用于list/input页提示性文字-->
+    <!--用于全站分割线颜色-->
+    <!--用于全站背景以及分割线色块-->
+    <color name="zt_color_white">#FFFFFFFF</color>
+
+    <color name="zt_common_divider">#d9d9d9</color>
+    <color name="zt_common_all_bg">#f8f8f8</color>
+
+    <color name="tool_miniapp_text_color">#585858</color>
+    <color name="tool_search_text_color">#c9c9c9</color>
+    <color name="tool_helper_divider_color">#e5e5e7</color>
+    <color name="tool_helper_bg">#FFf2f3f7</color>
+    <color name="tool_helper_text_color">#222222</color>
+    <color name="tool_helper_title_text_color">#969696</color>
+    <color name="tool_personinfo_title_color">#969696</color>
+    <color name="tool_personinfo_text_color">#222222</color>
+    <color name="tool_person_info_item_text_color">#848484</color>
+    <color name="tool_person_info_blue_circle_bg">#70b5fd</color>
+    <color name="tool_white_0.2">#33FFFFFF</color>
+    <color name="tool_white_0.8">#CCFFFFFF</color>
+    <color name="tool_addr_list_selector_selected_bg">#80f2f3f7</color>
+    <color name="tool_address_more_text_color">#3498fe</color>
+    <color name="tool_address_search_title_color">#1a1a1a</color>
+    <color name="tool_addr_button_normal">#FFFFFF</color>
+    <color name="tool_addr_button_pressed">#FFFFFF</color>
+    <color name="tool_addr_button_disabled">#80FFFFFF</color>
+    <color name="tool_divider_color">#e5e6e7</color>
+    <color name="tool_divider_middle_color">#e0e0e0</color>
+    <color name="cal_title_text_color">#3498fe</color>
+    <color name="tool_color_ebebeb">#ebebeb</color>
+    <color name="color_979797">#979797</color>
+</resources>

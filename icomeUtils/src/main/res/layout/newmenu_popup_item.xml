@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/x30"
+    android:paddingTop="@dimen/x30">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/iv_menu_item"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/x55"-->
+        <!--android:layout_marginTop="@dimen/x10" />-->
+
+    <TextView
+        android:id="@+id/tv_menu_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#333333"
+        android:text="隐藏卡片后4小时可见"
+        android:layout_marginTop="@dimen/x6"
+        android:textSize="@dimen/x28" />
+</RelativeLayout>

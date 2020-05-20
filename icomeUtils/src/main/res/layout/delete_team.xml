@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="@dimen/x540"
+        android:layout_height="@dimen/x280"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/dialog_shape_tm">
+
+        <TextView
+            android:id="@+id/dialog_tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/x26"
+            android:layout_marginTop="@dimen/x30"
+            android:layout_marginRight="@dimen/x26"
+            android:gravity="center"
+            android:text="删除团队时，动态,"
+            android:textColor="#000000"
+            android:textSize="@dimen/x30" />
+
+        <TextView
+            android:id="@+id/dialog_tv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dialog_tv1"
+            android:layout_marginLeft="@dimen/x26"
+            android:layout_marginRight="@dimen/x26"
+            android:gravity="center"
+            android:text="创值里程碑、任务、成员将同步删除,"
+            android:textColor="#000000"
+            android:textSize="@dimen/x30" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dialog_tv2"
+            android:layout_marginLeft="@dimen/x26"
+            android:layout_marginRight="@dimen/x26"
+            android:gravity="center"
+            android:text="请确定是否删除？"
+            android:textColor="#000000"
+            android:textSize="@dimen/x30" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/x88"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#9f9f9f"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/finish_cancel"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="取消"
+                    android:textColor="#3480ff"
+                    android:textSize="@dimen/x34"
+
+                    ></TextView>
+
+                <View
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="#9f9f9f"
+
+                    ></View>
+
+                <TextView
+                    android:id="@+id/finish_confirm"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="确定"
+                    android:textColor="#3480ff"
+                    android:textSize="@dimen/x34"></TextView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

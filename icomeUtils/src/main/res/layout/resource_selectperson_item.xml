@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/x208"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/x30"
+    android:orientation="vertical"
+    android:id="@+id/resource_selectperson_layout"
+    android:background="@mipmap/resource_select_image">
+
+    <ImageView
+        android:id="@+id/resource_selectperson_heard"
+        android:layout_width="@dimen/x120"
+        android:layout_height="@dimen/x120"
+        android:layout_marginTop="@dimen/x30"
+        android:layout_gravity="center"
+        android:src="@mipmap/person_touxiang"/>
+
+    <TextView
+        android:id="@+id/resource_selectperson_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#333333"
+        android:textSize="@dimen/x28"
+        android:layout_gravity="center"
+        android:text=""
+        android:layout_marginTop="@dimen/x30"
+        android:layout_marginBottom="@dimen/x50"/>
+</LinearLayout>

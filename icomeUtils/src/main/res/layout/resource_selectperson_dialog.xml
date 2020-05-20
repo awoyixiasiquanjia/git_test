@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/x750"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/selectlayout_shape"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/x50">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="采纳了以下谁的回答?"
+            android:textColor="#222222"
+            android:textSize="@dimen/x32" />
+
+        <ImageView
+            android:id="@+id/resource_selectperson_close"
+            android:layout_width="@dimen/x28"
+            android:layout_height="@dimen/x28"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/x45"
+            android:src="@mipmap/selectperson_close" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x590"
+        android:layout_marginTop="@dimen/x60">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/resource_selectperson_recycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/resource_selectperson_button"
+            android:layout_marginLeft="@dimen/x19"
+            android:layout_marginRight="@dimen/x44"
+            android:layout_marginBottom="@dimen/x50"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+
+        <Button
+            android:id="@+id/resource_selectperson_button"
+            android:layout_width="@dimen/x660"
+            android:layout_height="@dimen/x86"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/x30"
+            android:background="@drawable/shape_blue_button"
+            android:text="确定"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/x30" />
+    </RelativeLayout>
+
+
+</LinearLayout>

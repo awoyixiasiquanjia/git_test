@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        android:id="@+id/dialog_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/firstFloatImage"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="@dimen/x220"
+        android:layout_height="@dimen/x200"
+        android:layout_marginTop="@dimen/x200"  />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/secondFloatImage"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="@dimen/x220"
+        android:layout_height="@dimen/x200"
+        android:layout_marginTop="@dimen/x180"  />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/thirdFloatImage"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="@dimen/x220"
+        android:layout_height="@dimen/x200"
+        android:layout_marginTop="@dimen/x350"
+        android:layout_marginRight="@dimen/x160"/>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/fourthFloatImage"
+        android:layout_width="@dimen/x220"
+        android:layout_height="@dimen/x200"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/x150" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/jumpBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/x64"
+        android:layout_marginRight="@dimen/x30"
+        android:textSize="@dimen/x32"
+        android:textColor="#ffffff"
+        android:text="跳过 >>"/>
+
+</RelativeLayout>
